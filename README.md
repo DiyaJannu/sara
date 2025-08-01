@@ -49,11 +49,14 @@ SARA is a secure, multilingual reminder system tailored for medical and caregivi
    ```bash
    pip install -r requirements.txt
 
-3.**Set environment variables Create a .env file and add your Twilio credentials:**
-    ```bash
-   TWILIO_SID=your_sid
-   TWILIO_AUTH_TOKEN=your_token
-   TWILIO_PHONE=your_twilio_phone
+3. Set environment variables  
+Create a `.env` file and add your Twilio credentials:
+
+```bash
+TWILIO_SID=your_sid
+TWILIO_AUTH_TOKEN=your_token
+TWILIO_PHONE=your_twilio_phone
+
 
 4. **Run the App**
    python app.py Then open  http://127.0.0.1:5000 in your browser.
